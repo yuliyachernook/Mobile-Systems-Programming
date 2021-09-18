@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Мужской"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Женский"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@id/weightTextView"
+        app:layout_constraintTop_toBottomOf="@id/genderRadioGroup" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/heightTextView"
+        app:layout_constraintTop_toBottomOf="@id/genderRadioGroup" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@id/ageTextView"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Калькулятор нормы потребления калорий"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Ваш пол"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Ваш вес"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genderTextView" />
+
+    <TextView
+        android:id="@+id/weightTextView3"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="24dp"
+        android:text="кг"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genderTextView" />
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="68dp"
+        android:text="Ваш рост"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/heightTextView3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="684dp"
+        android:layout_marginTop="68dp"
+        android:text="см"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="16dp"
+        android:text="Ваш возраст"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/ageTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="684dp"
+        android:layout_marginTop="16dp"
+        android:text="лет"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/lifestyleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:text="Ваш образ жизни"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/weightTextView" />
+
+    <Spinner
+        android:id="@+id/activitySpinner"
+        android:layout_width="477dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="24dp"
+        android:entries="@array/physical_activity"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/lifestyleTextView"
+        app:layout_constraintTop_toBottomOf="@id/weightTextView" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="134dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="85dp"
+        android:onClick="onCalculateCaloriesClicked"
+        android:text="Посчитать"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activitySpinner" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="500dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculateButton"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="17dp"
+        android:text="Сколько Вам нужно калорий в день?"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activitySpinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

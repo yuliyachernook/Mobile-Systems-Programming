@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="result_message">Вам нужно употреблять %1$.0f ккал/день</string>
+
+    <string-array name="physical_activity">
+        <item>Сидячий образ жизни</item>
+        <item>Умеренная активность (1-3 раз в неделю)</item>
+        <item>Средняя активность (3-5 раз в неделю)</item>
+        <item>Активные люди (6-7 раз в неделю)</item>
+        <item>Спортсмены и люди, выполняющие сходные нагрузки</item>
+    </string-array>
+
+    <string name="age_validation_error">Ошибка! Значение возраста должно быть в диапазоне от %1$d до %2$d</string>
+    <string name="height_validation_error">Ошибка! Значение роста должно быть в диапазоне от %1$d до %2$d</string>
+    <string name="weight_validation_error">Ошибка! Значение веса должно быть в диапазоне от %1$d до %2$d</string>
+</resources>
