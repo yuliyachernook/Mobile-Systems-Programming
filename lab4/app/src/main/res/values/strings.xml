@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Job Search</string>
+
+    <string-array name="education">
+        <item>послевузовское</item>
+        <item>высшее</item>
+        <item>среднее специальное</item>
+        <item>профессионально-техническое</item>
+        <item>общее среднее</item>>
+    </string-array>
+</resources>

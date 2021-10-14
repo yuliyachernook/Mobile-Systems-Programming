@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthActivity">
+
+    <TextView
+        android:id="@+id/workExperienceTextView4"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Опыт работы: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionTextView3" />
+
+
+    <TextView
+        android:id="@+id/educationTextView4"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="30dp"
+        android:text="Место учебы"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionTextView3" />
+
+    <TextView
+        android:id="@+id/educationTextView3"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Образование:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView3" />
+
+    <TextView
+        android:id="@+id/positionTextView3"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Должность: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/educationTextView3" />
+
+    <TextView
+        android:id="@+id/nameTextView3"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Имя: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surnameTextView3" />
+
+    <TextView
+        android:id="@+id/surnameTextView3"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Фамилия: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textView5" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="onGoToPrevActivityClick"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:text="Анкета"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/workTextView"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:text="Место работы"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/educationTextView4" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onOpenPhone"
+        android:text="Телефон: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/workTextView" />
+
+    <TextView
+        android:id="@+id/phoneTextView3"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onOpenPhone"
+        android:text="Телефон: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/workTextView" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onOpenEmail"
+        android:text="E-mail: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phoneTextView" />
+
+    <TextView
+        android:id="@+id/emailTextView2"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="E-mail: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phoneTextView" />
+
+    <TextView
+        android:id="@+id/socialNetworksTextView"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onOpenSocialNetwork"
+        android:text="Соц. сеть:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <TextView
+        android:id="@+id/socialNetworksTextView2"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Соц. сеть:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
