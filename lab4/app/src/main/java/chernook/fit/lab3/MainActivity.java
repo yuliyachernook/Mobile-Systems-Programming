@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
         int selectedEducation = educationSpinner.getSelectedItemPosition();
         Intent intent;
         if (selectedEducation == 4 && workCheckBox.isChecked()) {
-            intent = new Intent(this, ThirdActivity.class);
+            intent = new Intent(this, WorkActivity.class);
         }
-        else intent = new Intent(this, SecondActivity.class);
+        else intent = new Intent(this, EducationActivity.class);
         User user = new User(surnameEditText.getText().toString(), nameEditText.getText().toString(),
                 getEducation(), positionEditText.getText().toString(), isWorkExperience);
         intent.putExtra(User.class.getSimpleName(), user);

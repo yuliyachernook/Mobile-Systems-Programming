@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14166666666666666" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic__addd.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_add.xml" value="0.14583333333333334" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_addd.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.2703125" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14166666666666666" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_loupe.xml" value="0.14583333333333334" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_sort.xml" value="0.14583333333333334" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/ic_sort_by_attributes_icon_icons_com_73406.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/drawable/photo.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_add_goods.xml" value="0.24295432458697766" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_edit_good_item_form.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_edit_goods.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_good_item.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_goods_information.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_info_good_item.xml" value="0.3138020833333333" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_insert_good_item_form.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/dialog_edit.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/dialog_goods_edit.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/dialog_goods_remove.xml" value="0.264" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/dialog_remove.xml" value="0.20018115942028986" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/good_item_row.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/layout/goods_item_row.xml" value="0.536" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/menu/main_menu.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/menu/new_good_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/menu/new_goods_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/menu/search_menu.xml" value="0.2" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/menu/sort_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab5/app/src/main/res/mipmap-anydpi-v26/ic_photo.xml" value="0.14635416666666667" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/drawable/ic_borders.xml" value="0.2703125" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/activity_edit_goods.xml" value="0.13020833333333334" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/activity_goods_information.xml" value="0.20833333333333334" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/activity_main.xml" value="0.19746376811594202" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/dialog_goods_edit.xml" value="0.19746376811594202" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/fragment_good_item.xml" value="0.19746376811594202" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/fragment_good_item_list.xml" value="0.20833333333333334" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/fragment_goods_item_detail.xml" value="0.19746376811594202" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/fragment_goods_item_list.xml" value="0.4" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/fragment_image.xml" value="0.13020833333333334" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/lesser.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/layout/normal.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/menu/list_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/menu/new_goods_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/menu/search_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/4k1sem/PMS/lab6/app/src/main/res/menu/sort_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

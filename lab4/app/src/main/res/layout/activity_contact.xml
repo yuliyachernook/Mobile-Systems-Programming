@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourthActivity">
+    tools:context=".ContactActivity">
 
     <TextView
         android:id="@+id/workExperienceTextView4"
@@ -195,12 +195,23 @@
 
     <ImageView
         android:id="@+id/my_avatar_imageview"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="47dp"
-        android:layout_marginBottom="105dp"
+        android:layout_marginBottom="150dp"
         android:adjustViewBounds="true"
-        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/unnamed" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="onPhotoClick"
+        android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent" />
 

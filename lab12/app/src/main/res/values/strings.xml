@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab12</string>
+    <string-array name="countries">
+        <item>Minsk</item>
+        <item>Mozyr</item>
+        <item>Moscow</item>
+        <item>Vitebsk</item>
+    </string-array>
+</resources>

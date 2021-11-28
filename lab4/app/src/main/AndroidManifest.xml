@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab3">
         <activity
-            android:name=".SixthActivity"
+            android:name=".UserInfoActivity"
             android:exported="true" />
         <activity
-            android:name=".FourthActivity"
+            android:name=".ContactActivity"
             android:exported="true" />
         <activity
-            android:name=".FifthActivity"
+            android:name=".UserActivity"
             android:exported="true" />
         <activity
-            android:name=".ThirdActivity"
+            android:name=".WorkActivity"
             android:exported="true" />
         <activity
-            android:name=".SecondActivity"
+            android:name=".EducationActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

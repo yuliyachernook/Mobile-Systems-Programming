@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="remove_recipe">Do you want to remove this contact?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        app:showAsAction="always"
+        android:name="android:actionButtonStyle"
+        android:icon="@drawable/ic_add"
+        android:title="Add" />
+    <item
+        android:id="@+id/no_sort"
+        android:icon="@drawable/ic_baseline_sort_24"
+        app:showAsAction="always"
+        android:title="No sort" />
+    <item
+        android:id="@+id/sort_by_name"
+        android:icon="@drawable/ic_baseline_sort_24"
+        app:showAsAction="always"
+        android:title="Sort by name" />
+    <item
+        android:id="@+id/sort_by_find_date"
+        android:icon="@drawable/ic_baseline_sort_24"
+        app:showAsAction="always"
+        android:title="Sort by date of find" />
+    <item
+        android:id="@+id/standard_favorites_settings"
+        android:title="All"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/active_favorites_settings"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Favorites"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/disactive_favorites_settings"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="No favorites"
+        app:showAsAction="ifRoom" />
+</menu>

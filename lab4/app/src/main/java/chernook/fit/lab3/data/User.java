@@ -1,5 +1,9 @@
 package chernook.fit.lab3.data;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
+import java.io.ByteArrayOutputStream;
 import java.io.Serializable;
 
 public class User implements Serializable {
@@ -10,16 +14,28 @@ public class User implements Serializable {
     private boolean isWorkExperience;
     private Education education;
     private Work work;
-    private String imagePath;
+    private byte[] image;
+    private String phone;
+    private String email;
+    private String socialNetwork;
 
-    public String getImagePath() {
-        return imagePath;
+    public byte[] getImage() {
+        return image;
     }
 
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 
+    public Bitmap getImageAsBitmap() {
+        return BitmapFactory.decodeByteArray(image, 0, image.length);
+    }
+
+    public void setImageFromBitmap(Bitmap bitmap) {
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+        image = stream.toByteArray();
+    }
     public String getPhone() {
         return phone;
     }
@@ -43,10 +59,6 @@ public class User implements Serializable {
     public void setSocialNetwork(String socialNetwork) {
         this.socialNetwork = socialNetwork;
     }
-
-    private String phone;
-    private String email;
-    private String socialNetwork;
 
     public User() {
 

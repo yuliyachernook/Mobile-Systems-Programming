@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SixthActivity">
+    tools:context=".UserInfoActivity">
 
     <TextView
         android:id="@+id/workExperienceTextView4"
@@ -77,13 +77,16 @@
         app:layout_constraintTop_toTopOf="@id/textView5" />
 
     <Button
+        android:id="@+id/button6"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="24dp"
         android:onClick="onGoToPrevActivityClick"
         android:text="Назад"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -178,6 +181,19 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <ImageView
+        android:id="@+id/my_avatar_imageview"
+        android:layout_width="158dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/unnamed" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
