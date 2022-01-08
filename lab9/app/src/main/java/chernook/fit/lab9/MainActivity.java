@@ -44,14 +44,14 @@ public class MainActivity extends AppCompatActivity {
         contactModelView.getContacts().observe(this, this::updateFragment);
     }
 
-    public void updateFragment(List<Contact> recipes) {
+    public void updateFragment(List<Contact> contacts) {
 
         ContactsFragment cardFragment = new ContactsFragment();
-        cardFragment.setList(recipes);
+        cardFragment.setList(contacts);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container_view, cardFragment).commitAllowingStateLoss();
 
-        ImageManager.clearUnused(this, recipes.stream()
+        ImageManager.clearUnused(this, contacts.stream()
                 .map(r -> r.imageUri).collect(Collectors.toList()));
     }
 
